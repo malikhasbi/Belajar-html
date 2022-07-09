@@ -1,0 +1,120 @@
+body {
+    font-family: arial;
+    background-color: #252346;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #2b2858;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+table {
+    margin: 20px 0;
+    color: white;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"],
+form input[type="password"] {
+    border: 0;
+    background: none;
+    border: 2px solid #6f71fd;
+    padding: 15px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border-color: rgb(29, 214, 29);
+    width: 250px;
+}
+
+form select,
+form textarea {
+    padding: 5px;
+    border: 0;
+    background: none;
+    border: 2px solid #6f71fd;
+    background-color: #252346;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.form select:focus,
+.form textarea:focus {
+    border-top: 2px solid rgb(29, 214, 29);
+    border-bottom: 2px solid rgb(29, 214, 29);
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    margin-top: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    border: 2px solid #6f71fd;
+    padding: 10px 5px;
+    width: 140px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+form select:focus,
+form textarea:focus {
+    border-top: 2px solid rgb(29, 214, 29);
+    border-bottom: 2px solid rgb(29, 214, 29);
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #141557;
+    border-top: 2px solid rgb(29, 214, 29);
+    border-bottom: 2px solid rgb(29, 214, 29);
+}
+
+@media (max-width: 800px) {
+
+    .form input[type="text"],
+    .form input[type="date"],
+    .form input[type="email"],
+    .form input[type="password"] {
+        padding: 10px;
+        width: 150px;
+    }
+
+    .form input[type="text"]:focus,
+    .form input[type="date"]:focus,
+    .form input[type="email"]:focus,
+    .form input[type="password"]:focus {
+        border-color: rgb(29, 214, 29);
+        width: 170px;
+    }
+
+    .form input[type="submit"] {
+        width: 90px;
+    }
+}

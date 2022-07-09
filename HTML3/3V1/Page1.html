@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hallo</title>
+</head>
+
+<body>
+    <!--CSS-->
+    <link rel="stylesheet" href="Style.css">
+    <!--html headings-->
+    <h1>Hallo</h1>
+    <h2>Hallo</h2>
+    <h3>Hallo</h3>
+    <h4>Hallo</h4>
+    <h5>Hallo</h5>
+    <h6>Hallo</h6>
+
+    <!--paragraph-->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et non eum quod sapiente dolor vel numquam quis illum
+        quisquam aut? Eos pariatur, illum non quaerat quidem dolorum voluptates error et?</p>
+
+    <!--single line break-->
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quod eos rem, quidem, aliquid, iusto doloremque
+        quasi exercitationem illum commodi amet totam fuga provident! Tempore dolorum assumenda cum eaque temporibus!
+    </p>
+
+    <!--thematic change in the content-->
+    <hr>
+
+    <h2>From and Input</h2>
+    <form action="">
+        <label for="username">Username : </label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="jeniskelamin">Jenis Kelamin : </label>
+        <input type="radio" name="jeniskelamin" id="pria">
+        <label for="pria">Pria</label>
+
+        <input type="radio" name="jeniskelamin" id="wanita">
+        <label for="wanita">Wanita</label>
+        <br>
+        <label for="skill">Bidang : </label>
+        <input type="checkbox" name="skill" id="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" name="skill" id="css">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" name="skill" id="javascript">
+        <label for="javascript">Javascript</label>
+        <br>
+        <label for="kota">Kota : </label>
+        <select name="kota" id="kota">
+            <option value="bandung">Bandung</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="yogyakarta">Yogyakarta</option>
+            <option value="surabaya">Surabaya</option>
+        </select>
+        <br>
+        <label for="comment">Comment : </label> <br>
+        <textarea name="comment" id="comment" cols="30" rows="3"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <br> <br>
+    <!-- Form -->
+    <form action="">
+        <!-- Table -->
+        <table border="0" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>
+                    <label for="username" class="header">Username : </label>
+                </td>
+                <td>
+                    <input type="text" name="username" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password" class="header">Password : </label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="jeniskelamin" id="pria">
+                    <label for="pria">Pria</label>
+                    <input type="radio" name="jeniskelamin" id="wanita">
+                    <label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="skill" id="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="skill" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="skill" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="kota">Kota : </label>
+                </td>
+                <td>
+                    <select name="kota" id="kota">
+                        <option value="bandung">Bandung</option>
+                        <option value="jakarta">Jakarta</option>
+                        <option value="surabaya">Surabaya</option>
+                    </select>
+                </td>
+            <tr>
+                <td>
+                    <label for="comment">Comment : </label> <br>
+                </td>
+                <td>
+                    <textarea name="comment" id="comment"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+
+
+</html>

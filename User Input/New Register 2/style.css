@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@300;400&display=swap');
+
+form {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 50px;
+    padding: 30px;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+label {
+    color: #272727;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    outline: none;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #7700ff55;
+    background: none;
+    transition: .25s;
+    padding: 10px;
+    color: #292929;
+    border-radius: 10px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    width: 250px;
+    border: 2px solid #09ff00;
+}
+
+
+form input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #09ff00;
+    background-color: #7700ff55;
+    color: white;
+    border-radius: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #09ff00;
+    color: #444;
+}
+
+@media (max-width: 800) {
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+        width: 100px;
+    }
+
+    form input[type="text"]:focus,
+    form input[type="email"]:focus,
+    form input[type="password"]:focus {
+        width: 150px;
+    }
+}

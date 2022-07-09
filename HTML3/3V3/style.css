@@ -1,0 +1,21 @@
+* {
+    font-family: 'poppins';
+}
+
+h3 {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(221, 255, 255);
+}
+
+.main {
+    
+    background-color: aqua;
+}
+#header{
+    margin: 0;
+    
+}

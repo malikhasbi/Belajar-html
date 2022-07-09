@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <form class="form" action="">
+        <div>
+            <table>
+                <h2>Register</h2>
+                <tr>
+                    <td>
+                        <label for=" name">Nama</label>
+                    </td>
+                    <td>
+                        <input type="text" name="register" id="name" placeholder="Nama lengkap">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tanggal">Tanggal Lahir</label>
+                    </td>
+                    <td>
+                        <input type="date" name="register" id="tanggal">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="user">Usename</label>
+                    </td>
+                    <td>
+                        <input type="text" name="register" id="user" placeholder="Usename">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" name="register" id="email" placeholder="Your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="register" id="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis kelamin</label></td>
+                    <td>
+                        <input type="radio" id="pria" name="register" value="lakilaki">
+                        <label for="pria">Laki-laki</label>
+
+                        <input type="radio" id="wanita" name="register" value="perempuan">
+                        <label for="wanita">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="agama">Agama</label></td>
+                    <td><select name="register" id="agama">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="katolik">Katolik</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="biografi">Biografi</label></td>
+                    <td><textarea name="register" id="biografi"></textarea></td>
+                </tr>
+                <td><input class="submit" type="submit" value="Daftar"></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color:#282828;
+}
+h1{
+    font-weight: bold;
+}
+label.header{
+    font-weight: bold;
+}
+* {
+    font-family: arial;
+    font-weight: normal;
+    color: white;
+}
